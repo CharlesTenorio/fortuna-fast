@@ -9,6 +9,7 @@ import (
 
 	hand_cliente "github.com/katana/fortuna/backend-go/internal/handler/cliente"
 
+	hand_sorteio "github.com/katana/fortuna/backend-go/internal/handler/sorteio"
 	hand_usr "github.com/katana/fortuna/backend-go/internal/handler/user"
 
 	"github.com/katana/fortuna/backend-go/pkg/adapter/mongodb"
@@ -18,6 +19,7 @@ import (
 	service_usr "github.com/katana/fortuna/backend-go/pkg/service/user"
 
 	service_cliente "github.com/katana/fortuna/backend-go/pkg/service/cliente"
+	service_sorteio "github.com/katana/fortuna/backend-go/pkg/service/sorteio"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
@@ -36,7 +38,7 @@ func main() {
 	// 		Durable: true,
 	// 	},
 	// }
-	logger.Info("start Application Cota Facil")
+	logger.Info("start Application Fortuna fast API")
 	conf := config.NewConfig()
 
 	mogDbConn := mongodb.New(conf)
@@ -45,6 +47,8 @@ func main() {
 	usr_service := service_usr.NewUsuarioservice(mogDbConn)
 
 	cli_service := service_cliente.NewClienteervice(mogDbConn)
+
+	sor_service := service_sorteio.NewSorteioService(mogDbConn)
 
 	r := chi.NewRouter()
 	r.Use(middleware.Logger)
@@ -64,6 +68,7 @@ func main() {
 	hand_usr.RegisterUsuarioAPIHandlers(r, usr_service)
 
 	hand_cliente.RegisterClientePIHandlers(r, cli_service)
+	hand_sorteio.RegisterSorteioPIHandlers(r, sor_service)
 
 	srv := server.NewHTTPServer(r, conf)
 
