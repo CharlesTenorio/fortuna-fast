@@ -1,0 +1,61 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "usr",
+    "dateExported": "2023-12-31T20:38:37.339Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bd3de0e1-9ff6-4e9a-90a1-a9fc56e39535",
+            "colId": "82bcd368-6af3-407c-8049-31d2c8116b38",
+            "containerId": "",
+            "name": "add",
+            "url": "http://localhost:8080/api/v1/usuario/add",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-30T14:18:20.648Z",
+            "modified": "2023-12-31T18:55:46.340Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \n  \"name\": \"Ferria costa\",\n  \"email\": \"vendas@ferrira.com\",\n  \"senha\": \"Java162\",\n  \"role\": \"fornecedor\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3c75ca64-cb01-49c1-9f5b-1e6cb071db5b",
+            "colId": "82bcd368-6af3-407c-8049-31d2c8116b38",
+            "containerId": "",
+            "name": "getJwt",
+            "url": "http://localhost:8080/api/v1/usuario/getjwt",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2023-12-30T16:06:20.280Z",
+            "modified": "2023-12-31T00:15:10.175Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"Jones@gmail.com\",\n  \"senha\": \"Java162\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eefbf4bc-4291-49c6-b0c5-829857d22ab4",
+            "colId": "82bcd368-6af3-407c-8049-31d2c8116b38",
+            "containerId": "",
+            "name": "all",
+            "url": "http://localhost:8080/api/v1/usuario/all",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-30T14:18:20.649Z",
+            "modified": "2023-12-30T15:19:29.108Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

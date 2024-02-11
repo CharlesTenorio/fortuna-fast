@@ -1,0 +1,78 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "meiopgamento",
+    "dateExported": "2023-12-31T20:26:17.267Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ca28828d-7174-4184-b6f6-15ce45230395",
+            "colId": "9b7fdb1f-f70e-4451-b950-84b5a1690994",
+            "containerId": "",
+            "name": "add",
+            "url": "http://localhost:8080/api/v1/meiopag/add?nome=Pix",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-19T17:33:31.040Z",
+            "modified": "2023-12-31T18:44:11.861Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "nome",
+                    "value": "Pix",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "f733cded-1dac-4e01-a1cd-56e364585b5a",
+            "colId": "9b7fdb1f-f70e-4451-b950-84b5a1690994",
+            "containerId": "",
+            "name": "update",
+            "url": "http://localhost:8080/api/v1/meiopag/update/6581c46c829d8357224b222f/Fiado",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2023-12-19T17:35:35.484Z",
+            "modified": "2023-12-19T17:40:34.287Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f4b5f1a6-ea9b-492d-8242-e0b24d9ae015",
+            "colId": "9b7fdb1f-f70e-4451-b950-84b5a1690994",
+            "containerId": "",
+            "name": "all",
+            "url": "http://localhost:8080/api/v1/meiopag/all",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-19T17:46:20.690Z",
+            "modified": "2023-12-19T17:48:38.771Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4eef553e-d343-4687-b818-9f86212a6f09",
+            "colId": "9b7fdb1f-f70e-4451-b950-84b5a1690994",
+            "containerId": "",
+            "name": "getid",
+            "url": "http://localhost:8080/api/v1/meiopag/getbyid/6581d434829d8357224b2232",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-12-19T17:55:10.627Z",
+            "modified": "2023-12-19T18:12:13.752Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "6581d434829d8357224b2232",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

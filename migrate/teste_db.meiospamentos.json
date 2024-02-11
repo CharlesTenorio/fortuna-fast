@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "6592bbd211a833a94151e9a3"
+  },
+  "meio_pg": "Pix",
+  "enabled": true,
+  "created_at": "2024-01-01T10:19:14-03:00",
+  "updated_at": "2024-01-01T10:19:14-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592bc0111a833a94151e9a4"
+  },
+  "meio_pg": "Cartao de Debito",
+  "enabled": true,
+  "created_at": "2024-01-01T10:20:01-03:00",
+  "updated_at": "2024-01-01T10:20:01-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592bc1511a833a94151e9a5"
+  },
+  "meio_pg": "Cartao de Credito",
+  "enabled": true,
+  "created_at": "2024-01-01T10:20:21-03:00",
+  "updated_at": "2024-01-01T10:20:21-03:00"
+}]

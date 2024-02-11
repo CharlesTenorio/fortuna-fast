@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "prd",
+    "dateExported": "2023-12-31T20:38:02.874Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3ef4c3a2-2e1f-4528-9425-78c269829fa8",
+            "colId": "b521ff79-d32e-4470-ae8a-8e6bee9fd5bc",
+            "containerId": "",
+            "name": "add",
+            "url": "http://localhost:8080/api/v1/produto/add",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-20T22:58:46.244Z",
+            "modified": "2023-12-31T18:53:18.770Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n \"nome\": \"Conduite\",\n  \"enabled\": true,\n  \"categoria\": {\n    \"_id\": \"6591b6eb7bebb8a17d696d4e\",\n    \"nome\": \"Ferramentas manuais e elétricas\",\n    \"enabled\": true,\n    \"created_at\": \"2023-01-01T00:00:00Z\",\n    \"updated_at\": \"2023-01-01T00:00:00Z\"\n  },\n  \"created_at\": \"2023-01-01T00:00:00Z\",\n  \"updated_at\": \"2023-01-01T00:00:00Z\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "10440020-7a50-4eab-8af9-79a44030a821",
+            "colId": "b521ff79-d32e-4470-ae8a-8e6bee9fd5bc",
+            "containerId": "",
+            "name": "all",
+            "url": "http://localhost:8080/api/v1/produto/all",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-20T23:49:41.258Z",
+            "modified": "2023-12-20T23:49:59.349Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

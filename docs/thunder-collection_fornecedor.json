@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "fornecedor",
+    "dateExported": "2023-12-31T20:39:17.973Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bc9ebadb-3dd5-41c4-92cd-f1b2a6fd3cb6",
+            "colId": "20b3218a-2b45-40a9-bf76-153e9564be67",
+            "containerId": "",
+            "name": "add",
+            "url": "http://localhost:8080/api/v1/fornecedor/add",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-31T18:57:11.156Z",
+            "modified": "2023-12-31T19:31:03.579Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id_usr\": \"6591b9327bebb8a17d696d5d\", \n  \"nome\": \"Ferreira costa XYZ\",\n  \"telefone\": \"(11) 1234-5678\",\n  \"cnpj\": \"12345678901234\",\n  \"raio\": \"10km\",\n  \"excluido\": \"N\", \n  \"endereco\": [\n    {\n      \"logradouro\": \"Rua ABC, 123\",\n      \"cidade\": \"São Paulo\",\n      \"estado\": \"SP\",\n      \"cep\": \"12345-678\"\n    }\n   \n  ],\n   \"produto\": [\n   {\n      \"produto_id\": \"6590b6efa85c8d744104413b\",\n      \"nome\": \"Suvinil\",\n      \"enabled\": true,\n      \"categoria\": {\n        \"_id\": \"6582d00c22a777c71d555a05\",\n        \"nome\": \"Tinta\",\n        \"enabled\": true\n      }\n      \n    },\n    {\n      \"produto_id\": \"6591b78e7bebb8a17d696d52\",\n      \"nome\": \"Vanda color\",\n      \"enabled\": true,\n      \"categoria\": {\n        \"_id\": \"6591b6f57bebb8a17d696d4f\",\n        \"nome\": \"Tinta\",\n        \"enabled\": true\n       \n      }\n      \n    },\n    {\n      \"produto_id\": \"6591b79f7bebb8a17d696d53\",\n      \"nome\": \"Juvenal color\",\n      \"enabled\": true,\n      \"categoria\": {\n        \"_id\": \"6591b6f57bebb8a17d696d4f\",\n        \"nome\": \"Tinta\",\n        \"enabled\": true\n       \n      }\n     \n    },\n    {\n      \"produto_id\": \"6591b7ae7bebb8a17d696d54\",\n      \"nome\": \"Matrix\",\n      \"enabled\": true,\n      \"categoria\": {\n        \"_id\": \"6591b6f57bebb8a17d696d4f\",\n        \"nome\": \"Tinta\",\n        \"enabled\": true\n      \n      }\n      \n    },\n    {\n      \"produto_id\": \"6591b7b87bebb8a17d696d55\",\n      \"nome\": \"Relaod\",\n      \"enabled\": true,\n      \"categoria\": {\n        \"_id\": \"6591b6f57bebb8a17d696d4f\",\n        \"nome\": \"Tinta\",\n        \"enabled\": true\n       \n      }\n     },\n    {\n      \"produto_id\": \"6591b7c77bebb8a17d696d56\",\n      \"nome\": \"Cheiro novo\",\n      \"enabled\": true,\n      \"categoria\": {\n        \"_id\": \"6591b6f57bebb8a17d696d4f\",\n        \"nome\": \"Tinta\",\n        \"enabled\": true\n      \n      }\n      \n    },\n    {\n      \"produto_id\": \"6591b85e7bebb8a17d696d57\",\n      \"nome\": \"Fios\",\n      \"enabled\": true,\n      \"categoria\": {\n        \"_id\": \"6591b6eb7bebb8a17d696d4e\",\n        \"nome\": \"Ferramentas manuais e elétricas\",\n        \"enabled\": true\n        \n      }\n    },\n    {\n      \"produto_id\": \"6591b8687bebb8a17d696d58\",\n      \"nome\": \"Furadeira\",\n      \"enabled\": true,\n      \"categoria\": {\n        \"_id\": \"6591b6eb7bebb8a17d696d4e\",\n        \"nome\": \"Ferramentas manuais e elétricas\",\n        \"enabled\": true\n       \n      }\n      \n    },\n    {\n      \"produto_id\": \"6591b8817bebb8a17d696d59\",\n      \"nome\": \"Tomada 3 pinos\",\n      \"enabled\": true,\n      \"categoria\": {\n        \"_id\": \"6591b6eb7bebb8a17d696d4e\",\n        \"nome\": \"Ferramentas manuais e elétricas\",\n        \"enabled\": true\n      }\n    },\n    {\n      \"produto_id\": \"6591b88b7bebb8a17d696d5a\",\n      \"nome\": \"Tomada 2 pinos\",\n      \"enabled\": true,\n      \"categoria\": {\n        \"_id\": \"6591b6eb7bebb8a17d696d4e\",\n        \"nome\": \"Ferramentas manuais e elétricas\",\n        \"enabled\": true\n      }\n      \n    }\n  ],\n  \"meio_pagamento\": [\n    {\n      \"id\": \"6591b65c7bebb8a17d696d4a\",\n      \"meio_pg\": \"Boleto\",\n      \"enabled\": true\n    },\n    {\n      \"id\": \"6591b66b7bebb8a17d696d4b\",\n      \"meio_pg\": \"Cartao de Credito\",\n      \"enabled\": true\n    },\n    {\n      \"id\": \"6591b67b7bebb8a17d696d4d\",\n      \"meio_pg\": \"Pix\",\n      \"enabled\": true\n    }\n  ],\n  \"enabled\": true\n}\n",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

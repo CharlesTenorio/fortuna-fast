@@ -1,0 +1,243 @@
+[{
+  "_id": {
+    "$oid": "6592c26211a833a94151e9a6"
+  },
+  "nome": "Cimento",
+  "enabled": true,
+  "created_at": "2024-01-01T10:47:14-03:00",
+  "updated_at": "2024-01-01T10:47:14-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c26f11a833a94151e9a7"
+  },
+  "nome": "Concreto",
+  "enabled": true,
+  "created_at": "2024-01-01T10:47:27-03:00",
+  "updated_at": "2024-01-01T10:47:27-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c27d11a833a94151e9a8"
+  },
+  "nome": "Argamassa",
+  "enabled": true,
+  "created_at": "2024-01-01T10:47:41-03:00",
+  "updated_at": "2024-01-01T10:47:41-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c29711a833a94151e9a9"
+  },
+  "nome": "Aço",
+  "enabled": true,
+  "created_at": "2024-01-01T10:48:07-03:00",
+  "updated_at": "2024-01-01T10:48:07-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c2a511a833a94151e9aa"
+  },
+  "nome": "Ferro",
+  "enabled": true,
+  "created_at": "2024-01-01T10:48:21-03:00",
+  "updated_at": "2024-01-01T10:48:21-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c2b011a833a94151e9ab"
+  },
+  "nome": "Ferragens",
+  "enabled": true,
+  "created_at": "2024-01-01T10:48:32-03:00",
+  "updated_at": "2024-01-01T10:48:32-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c2c711a833a94151e9ac"
+  },
+  "nome": "Madeira",
+  "enabled": true,
+  "created_at": "2024-01-01T10:48:55-03:00",
+  "updated_at": "2024-01-01T10:48:55-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c2d911a833a94151e9ad"
+  },
+  "nome": "Marcenaria",
+  "enabled": true,
+  "created_at": "2024-01-01T10:49:13-03:00",
+  "updated_at": "2024-01-01T10:49:13-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c2e711a833a94151e9ae"
+  },
+  "nome": "Cerâmica",
+  "enabled": true,
+  "created_at": "2024-01-01T10:49:27-03:00",
+  "updated_at": "2024-01-01T10:49:27-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c2fc11a833a94151e9af"
+  },
+  "nome": "Azulejos",
+  "enabled": true,
+  "created_at": "2024-01-01T10:49:48-03:00",
+  "updated_at": "2024-01-01T10:49:48-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c31411a833a94151e9b0"
+  },
+  "nome": "Materiais para Revestimento",
+  "enabled": true,
+  "created_at": "2024-01-01T10:50:12-03:00",
+  "updated_at": "2024-01-01T10:50:12-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c33211a833a94151e9b1"
+  },
+  "nome": "Isolamento Térmico e Acústico",
+  "enabled": true,
+  "created_at": "2024-01-01T10:50:42-03:00",
+  "updated_at": "2024-01-01T10:50:42-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c34b11a833a94151e9b2"
+  },
+  "nome": "Ferramentas Manuais e Elétricas",
+  "enabled": true,
+  "created_at": "2024-01-01T10:51:07-03:00",
+  "updated_at": "2024-01-01T10:51:07-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c35a11a833a94151e9b3"
+  },
+  "nome": "Elétrica e Iluminação",
+  "enabled": true,
+  "created_at": "2024-01-01T10:51:22-03:00",
+  "updated_at": "2024-01-01T10:51:22-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c37311a833a94151e9b4"
+  },
+  "nome": "Pintura e Acabamento",
+  "enabled": true,
+  "created_at": "2024-01-01T10:51:47-03:00",
+  "updated_at": "2024-01-01T10:51:47-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c38d11a833a94151e9b5"
+  },
+  "nome": "Equipamentos de Proteção e Segurança",
+  "enabled": true,
+  "created_at": "2024-01-01T10:52:13-03:00",
+  "updated_at": "2024-01-01T10:52:13-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c39e11a833a94151e9b6"
+  },
+  "nome": "Materiais para Telhados e Coberturas",
+  "enabled": true,
+  "created_at": "2024-01-01T10:52:30-03:00",
+  "updated_at": "2024-01-01T10:52:30-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c3ad11a833a94151e9b7"
+  },
+  "nome": "Materiais para Jardinagem e Paisagismo",
+  "enabled": true,
+  "created_at": "2024-01-01T10:52:45-03:00",
+  "updated_at": "2024-01-01T10:52:45-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c3c711a833a94151e9b8"
+  },
+  "nome": "Ferramentas Agrícolas",
+  "enabled": true,
+  "created_at": "2024-01-01T10:53:11-03:00",
+  "updated_at": "2024-01-01T10:53:11-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c3d711a833a94151e9b9"
+  },
+  "nome": "Materiais Elétricos",
+  "enabled": true,
+  "created_at": "2024-01-01T10:53:27-03:00",
+  "updated_at": "2024-01-01T10:53:27-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c3f211a833a94151e9ba"
+  },
+  "nome": "Materiais Hidrossanitários",
+  "enabled": true,
+  "created_at": "2024-01-01T10:53:54-03:00",
+  "updated_at": "2024-01-01T10:53:54-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c40711a833a94151e9bb"
+  },
+  "nome": "Ferramentas de Medição e Precisão",
+  "enabled": true,
+  "created_at": "2024-01-01T10:54:15-03:00",
+  "updated_at": "2024-01-01T10:54:15-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c42011a833a94151e9bc"
+  },
+  "nome": "Eletrodomésticos",
+  "enabled": true,
+  "created_at": "2024-01-01T10:54:40-03:00",
+  "updated_at": "2024-01-01T10:54:40-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c43611a833a94151e9be"
+  },
+  "nome": "Ferramentas para Construção Civil",
+  "enabled": true,
+  "created_at": "2024-01-01T10:55:02-03:00",
+  "updated_at": "2024-01-01T10:55:02-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c44711a833a94151e9bf"
+  },
+  "nome": "Móveis para Construção",
+  "enabled": true,
+  "created_at": "2024-01-01T10:55:19-03:00",
+  "updated_at": "2024-01-01T10:55:19-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c45811a833a94151e9c0"
+  },
+  "nome": "Materiais para Estruturação",
+  "enabled": true,
+  "created_at": "2024-01-01T10:55:36-03:00",
+  "updated_at": "2024-01-01T10:55:36-03:00"
+},
+{
+  "_id": {
+    "$oid": "6592c46711a833a94151e9c1"
+  },
+  "nome": "Adesivos e Selantes",
+  "enabled": true,
+  "created_at": "2024-01-01T10:55:51-03:00",
+  "updated_at": "2024-01-01T10:55:51-03:00"
+}]

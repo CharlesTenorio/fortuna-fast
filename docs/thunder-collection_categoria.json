@@ -1,0 +1,85 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "categoria",
+    "dateExported": "2023-12-31T20:37:29.345Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7416f6bc-20c9-4e92-8962-4a255163f2b0",
+            "colId": "92e0f2d7-e561-45e5-b266-3ff9b07011fa",
+            "containerId": "",
+            "name": "add",
+            "url": "http://localhost:8080/api/v1/categoria/add?nome=Tijolos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-20T14:02:45.329Z",
+            "modified": "2023-12-31T18:46:26.461Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "nome",
+                    "value": "Tijolos",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "bee8f531-4b12-41be-9f52-59c2680ce9cc",
+            "colId": "92e0f2d7-e561-45e5-b266-3ff9b07011fa",
+            "containerId": "",
+            "name": "all",
+            "url": "http://localhost:8080/api/v1/categoria/all",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-12-20T14:06:32.088Z",
+            "modified": "2023-12-20T14:06:46.665Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "12336a47-dbe8-4f8b-b0f6-6d61442d1cf4",
+            "colId": "92e0f2d7-e561-45e5-b266-3ff9b07011fa",
+            "containerId": "",
+            "name": "byID",
+            "url": "http://localhost:8080/api/v1/categoria/getbyid/6582f24222a777c71d555a0b",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-20T14:08:07.123Z",
+            "modified": "2023-12-20T14:09:43.170Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b0e22ad2-e3fd-4849-820e-375b121d7290",
+            "colId": "92e0f2d7-e561-45e5-b266-3ff9b07011fa",
+            "containerId": "",
+            "name": "update",
+            "url": "http://localhost:8080/api/v1/categoria/update/6582f26322a777c71d555a0d/Vigas baldrame",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-12-20T14:10:26.297Z",
+            "modified": "2023-12-20T14:13:12.084Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "12a920ff-8628-4de2-b6ac-0ab1b7d89784",
+            "colId": "92e0f2d7-e561-45e5-b266-3ff9b07011fa",
+            "containerId": "",
+            "name": "ListarProdutoByCategoria",
+            "url": "http://localhost:8080/api/v1/categoria/listprd/6582d00c22a777c71d555a05",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-12-21T00:16:13.495Z",
+            "modified": "2023-12-25T22:03:29.478Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
