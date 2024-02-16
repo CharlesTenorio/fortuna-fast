@@ -13,6 +13,7 @@ import (
 	hand_usr "github.com/katana/fortuna/backend-go/internal/handler/user"
 
 	"github.com/katana/fortuna/backend-go/pkg/adapter/mongodb"
+	"github.com/katana/fortuna/backend-go/pkg/adapter/rabbitmq"
 
 	"github.com/katana/fortuna/backend-go/pkg/server"
 
@@ -32,23 +33,23 @@ var (
 )
 
 func main() {
-	// fila := []rabbitmq.Fila{
-	// 	{
-	// 		Name:    "QUEUE_PRDS_PARA_COTACAO",
-	// 		Durable: true,
-	// 	},
-	// }
+	fila := []rabbitmq.Fila{
+		{
+			Name:    "QUEUE_PRDS_PARA_COTACAOQUEUE_PROCESSAR_APOSTA",
+			Durable: true,
+		},
+	}
 	logger.Info("start Application Fortuna fast API")
 	conf := config.NewConfig()
 
 	mogDbConn := mongodb.New(conf)
-	//rbtMQConn := rabbitmq.NewRabbitMQ(fila, conf)
+	rbtMQConn := rabbitmq.NewRabbitMQ(fila, conf)
 	//rdisConn := redisdb.NewRedisClient(conf)
 	usr_service := service_usr.NewUsuarioservice(mogDbConn)
 
 	cli_service := service_cliente.NewClienteervice(mogDbConn)
 
-	sor_service := service_sorteio.NewSorteioService(mogDbConn)
+	sor_service := service_sorteio.NewSorteioService(rbtMQConn, mogDbConn)
 
 	r := chi.NewRouter()
 	r.Use(middleware.Logger)
